@@ -113,32 +113,32 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
     }
 
     private void setDefaultDrawerItemChecks() {
-        preferences.putCheckPref("icu", true);
-        preferences.putCheckPref("trollm", true);
-        preferences.putCheckPref("trollr", true);
-        preferences.putCheckPref("mnt", true);
-        preferences.putCheckPref("dank", true);
-        preferences.putCheckPref("mpling", true);
-        preferences.putCheckPref("kidilan", true);
-        preferences.putCheckPref("sct", true);
-        preferences.putCheckPref("trollcricket", true);
-        preferences.putCheckPref("trollfootball", true);
-        preferences.putCheckPref("trollmcinema", true);
-        preferences.putCheckPref("mtm", true);
-        preferences.putCheckPref("sheru", true);
-        preferences.putCheckPref("cinemamixer", true);
-        preferences.putCheckPref("cybertrollers", true);
-        preferences.putCheckPref("thengakola", true);
-        preferences.putCheckPref("trollmollywood", true);
-        preferences.putCheckPref("trollclashers", true);
-        preferences.putCheckPref("outspoken", true);
-        preferences.putCheckPref("btechtrolls", true);
-        preferences.putCheckPref("psctrolls", true);
-        preferences.putCheckPref("trollkerala", true);
-        preferences.putCheckPref("trollreligion", true);
-        preferences.putCheckPref("trollktu", true);
-        preferences.putCheckPref("pravasitrolls", true);
-        preferences.putCheckPref("onlinetm", true);
+        preferences.putCheckPref("page1", true);
+        preferences.putCheckPref("page2", true);
+        preferences.putCheckPref("page3", true);
+        preferences.putCheckPref("page4", true);
+        preferences.putCheckPref("page5", true);
+        preferences.putCheckPref("page6", true);
+        preferences.putCheckPref("page7", true);
+        preferences.putCheckPref("page8", true);
+        preferences.putCheckPref("page9", true);
+        preferences.putCheckPref("page10", true);
+        preferences.putCheckPref("page11", true);
+        preferences.putCheckPref("page12", true);
+        preferences.putCheckPref("page13", true);
+        preferences.putCheckPref("page14", true);
+        preferences.putCheckPref("page15", true);
+        preferences.putCheckPref("page16", true);
+        preferences.putCheckPref("page17", true);
+        preferences.putCheckPref("page18", true);
+        preferences.putCheckPref("page19", true);
+        preferences.putCheckPref("page20", true);
+        preferences.putCheckPref("page21", true);
+        preferences.putCheckPref("page22", true);
+        preferences.putCheckPref("page23", true);
+        preferences.putCheckPref("page24", true);
+        preferences.putCheckPref("page25", true);
+        preferences.putCheckPref("page26", true);
 
         preferences.setFirstTimeLaunch(false);
     }

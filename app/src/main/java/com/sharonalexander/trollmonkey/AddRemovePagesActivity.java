@@ -86,7 +86,7 @@ public class AddRemovePagesActivity extends AppCompatActivity implements Compoun
         checkPage19.setChecked(preferences.getCheckPref("page19"));
         checkPage20.setChecked(preferences.getCheckPref("page20"));
         checkPage21.setChecked(preferences.getCheckPref("page21"));
-        checkPage22.setChecked(preferences.getCheckPref("pag22"));
+        checkPage22.setChecked(preferences.getCheckPref("page22"));
         checkPage23.setChecked(preferences.getCheckPref("page23"));
         checkPage24.setChecked(preferences.getCheckPref("page24"));
         checkPage25.setChecked(preferences.getCheckPref("page25"));
