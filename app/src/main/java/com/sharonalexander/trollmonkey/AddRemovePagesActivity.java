@@ -65,32 +65,32 @@ public class AddRemovePagesActivity extends AppCompatActivity implements Compoun
     }
 
     private void setChecks() {
-        checkPage1.setChecked(preferences.getCheckPref("icu"));
-        checkPage2.setChecked(preferences.getCheckPref("trollm"));
-        checkPage3.setChecked(preferences.getCheckPref("trollr"));
-        checkPage4.setChecked(preferences.getCheckPref("mnt"));
-        checkPage5.setChecked(preferences.getCheckPref("dank"));
-        checkPage6.setChecked(preferences.getCheckPref("psctrolls"));
-        checkPage7.setChecked(preferences.getCheckPref("kidilan"));
-        checkPage8.setChecked(preferences.getCheckPref("sct"));
-        checkPage9.setChecked(preferences.getCheckPref("trollcricket"));
-        checkPage10.setChecked(preferences.getCheckPref("trollfootball"));
-        checkPage11.setChecked(preferences.getCheckPref("trollmcinema"));
-        checkPage12.setChecked(preferences.getCheckPref("mtm"));
-        checkPage13.setChecked(preferences.getCheckPref("sheru"));
-        checkPage14.setChecked(preferences.getCheckPref("cinemamixer"));
-        checkPage15.setChecked(preferences.getCheckPref("cybertrollers"));
-        checkPage16.setChecked(preferences.getCheckPref("thengakola"));
-        checkPage17.setChecked(preferences.getCheckPref("trollmollywood"));
-        checkPage18.setChecked(preferences.getCheckPref("trollclashers"));
-        checkPage19.setChecked(preferences.getCheckPref("outspoken"));
-        checkPage20.setChecked(preferences.getCheckPref("btechtrolls"));
-        checkPage26.setChecked(preferences.getCheckPref("mpling"));
-        checkPage22.setChecked(preferences.getCheckPref("trollkerala"));
-        checkPage23.setChecked(preferences.getCheckPref("trollreligion"));
-        checkPage24.setChecked(preferences.getCheckPref("trollktu"));
-        checkPage25.setChecked(preferences.getCheckPref("pravasitrolls"));
-        checkPage21.setChecked(preferences.getCheckPref("onlinetm"));
+        checkPage1.setChecked(preferences.getCheckPref("page1"));
+        checkPage2.setChecked(preferences.getCheckPref("page2"));
+        checkPage3.setChecked(preferences.getCheckPref("page3"));
+        checkPage4.setChecked(preferences.getCheckPref("page4"));
+        checkPage5.setChecked(preferences.getCheckPref("page5"));
+        checkPage6.setChecked(preferences.getCheckPref("page6"));
+        checkPage7.setChecked(preferences.getCheckPref("page7"));
+        checkPage8.setChecked(preferences.getCheckPref("page8"));
+        checkPage9.setChecked(preferences.getCheckPref("page9"));
+        checkPage10.setChecked(preferences.getCheckPref("page10"));
+        checkPage11.setChecked(preferences.getCheckPref("page11"));
+        checkPage12.setChecked(preferences.getCheckPref("page12"));
+        checkPage13.setChecked(preferences.getCheckPref("page13"));
+        checkPage14.setChecked(preferences.getCheckPref("page14"));
+        checkPage15.setChecked(preferences.getCheckPref("page15"));
+        checkPage16.setChecked(preferences.getCheckPref("page16"));
+        checkPage17.setChecked(preferences.getCheckPref("page17"));
+        checkPage18.setChecked(preferences.getCheckPref("page18"));
+        checkPage19.setChecked(preferences.getCheckPref("page19"));
+        checkPage20.setChecked(preferences.getCheckPref("page20"));
+        checkPage21.setChecked(preferences.getCheckPref("page21"));
+        checkPage22.setChecked(preferences.getCheckPref("pag22"));
+        checkPage23.setChecked(preferences.getCheckPref("page23"));
+        checkPage24.setChecked(preferences.getCheckPref("page24"));
+        checkPage25.setChecked(preferences.getCheckPref("page25"));
+        checkPage26.setChecked(preferences.getCheckPref("page26"));
     }
 
     private void setCheckListeners() {
@@ -140,275 +140,275 @@ public class AddRemovePagesActivity extends AppCompatActivity implements Compoun
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page2, 2);
                     checkPage2.setChecked(true);
-                    preferences.putCheckPref("trollm", true);
+                    preferences.putCheckPref("page2", true);
                 } else {
                     MainActivity.result.removeItem(2);
                     checkPage2.setChecked(false);
-                    preferences.putCheckPref("trollm", false);
+                    preferences.putCheckPref("page2", false);
                 }
                 break;
             case R.id.checkPage3:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page3, 3);
                     checkPage3.setChecked(true);
-                    preferences.putCheckPref("trollr", true);
+                    preferences.putCheckPref("page3", true);
                 } else {
                     MainActivity.result.removeItem(3);
                     checkPage3.setChecked(false);
-                    preferences.putCheckPref("trollr", false);
+                    preferences.putCheckPref("page3", false);
                 }
                 break;
             case R.id.checkPage4:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page4, 4);
                     checkPage4.setChecked(true);
-                    preferences.putCheckPref("mnt", true);
+                    preferences.putCheckPref("page4", true);
                 } else {
                     MainActivity.result.removeItem(4);
                     checkPage4.setChecked(false);
-                    preferences.putCheckPref("mnt", false);
+                    preferences.putCheckPref("page4", false);
                 }
                 break;
             case R.id.checkPage5:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page5, 5);
                     checkPage5.setChecked(true);
-                    preferences.putCheckPref("dank", true);
+                    preferences.putCheckPref("page5", true);
                 } else {
                     MainActivity.result.removeItem(5);
                     checkPage5.setChecked(false);
-                    preferences.putCheckPref("dank", false);
+                    preferences.putCheckPref("page5", false);
                 }
                 break;
             case R.id.checkPage6:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page6, 5);
                     checkPage6.setChecked(true);
-                    preferences.putCheckPref("psctrolls", true);
+                    preferences.putCheckPref("page6", true);
                 } else {
                     MainActivity.result.removeItem(6);
                     checkPage6.setChecked(false);
-                    preferences.putCheckPref("psctrolls", false);
+                    preferences.putCheckPref("page6", false);
                 }
                 break;
             case R.id.checkPage7:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page7, 5);
                     checkPage7.setChecked(true);
-                    preferences.putCheckPref("kidilan", true);
+                    preferences.putCheckPref("page7", true);
                 } else {
                     MainActivity.result.removeItem(7);
                     checkPage7.setChecked(false);
-                    preferences.putCheckPref("kidilan", false);
+                    preferences.putCheckPref("page7", false);
                 }
                 break;
             case R.id.checkPage8:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page8, 5);
                     checkPage8.setChecked(true);
-                    preferences.putCheckPref("sct", true);
+                    preferences.putCheckPref("page8", true);
                 } else {
                     MainActivity.result.removeItem(8);
                     checkPage8.setChecked(false);
-                    preferences.putCheckPref("sct", false);
+                    preferences.putCheckPref("page8", false);
                 }
                 break;
             case R.id.checkPage9:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page9, 5);
                     checkPage9.setChecked(true);
-                    preferences.putCheckPref("trollcricket", true);
+                    preferences.putCheckPref("page9", true);
                 } else {
                     MainActivity.result.removeItem(9);
                     checkPage9.setChecked(false);
-                    preferences.putCheckPref("trollcricket", false);
+                    preferences.putCheckPref("page9", false);
                 }
                 break;
             case R.id.checkPage10:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page10, 5);
                     checkPage10.setChecked(true);
-                    preferences.putCheckPref("trollfootball", true);
+                    preferences.putCheckPref("page10", true);
                 } else {
                     MainActivity.result.removeItem(10);
                     checkPage10.setChecked(false);
-                    preferences.putCheckPref("trollfootball", false);
+                    preferences.putCheckPref("page10", false);
                 }
                 break;
             case R.id.checkPage11:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page11, 5);
                     checkPage11.setChecked(true);
-                    preferences.putCheckPref("trollmcinema", true);
+                    preferences.putCheckPref("page11", true);
                 } else {
                     MainActivity.result.removeItem(11);
                     checkPage11.setChecked(false);
-                    preferences.putCheckPref("trollmcinema", false);
+                    preferences.putCheckPref("page11", false);
                 }
                 break;
             case R.id.checkPage12:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page12, 5);
                     checkPage12.setChecked(true);
-                    preferences.putCheckPref("mtm", true);
+                    preferences.putCheckPref("page12", true);
                 } else {
                     MainActivity.result.removeItem(12);
                     checkPage12.setChecked(false);
-                    preferences.putCheckPref("mtm", false);
+                    preferences.putCheckPref("page12", false);
                 }
                 break;
             case R.id.checkPage13:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page13, 5);
                     checkPage13.setChecked(true);
-                    preferences.putCheckPref("sheru", true);
+                    preferences.putCheckPref("page13", true);
                 } else {
                     MainActivity.result.removeItem(13);
                     checkPage13.setChecked(false);
-                    preferences.putCheckPref("sheru", false);
+                    preferences.putCheckPref("page13", false);
                 }
                 break;
             case R.id.checkPage14:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page14, 5);
                     checkPage14.setChecked(true);
-                    preferences.putCheckPref("cinemamixer", true);
+                    preferences.putCheckPref("page14", true);
                 } else {
                     MainActivity.result.removeItem(14);
                     checkPage14.setChecked(false);
-                    preferences.putCheckPref("cinemamixer", false);
+                    preferences.putCheckPref("page14", false);
                 }
                 break;
             case R.id.checkPage15:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page15, 5);
                     checkPage15.setChecked(true);
-                    preferences.putCheckPref("cybertrollers", true);
+                    preferences.putCheckPref("page15", true);
                 } else {
                     MainActivity.result.removeItem(15);
                     checkPage15.setChecked(false);
-                    preferences.putCheckPref("cybertrollers", false);
+                    preferences.putCheckPref("page15", false);
                 }
                 break;
             case R.id.checkPage16:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page16, 5);
                     checkPage16.setChecked(true);
-                    preferences.putCheckPref("thengakola", true);
+                    preferences.putCheckPref("page16", true);
                 } else {
                     MainActivity.result.removeItem(16);
                     checkPage16.setChecked(false);
-                    preferences.putCheckPref("thengakola", false);
+                    preferences.putCheckPref("page16", false);
                 }
                 break;
             case R.id.checkPage17:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page17, 5);
                     checkPage17.setChecked(true);
-                    preferences.putCheckPref("trollmollywood", true);
+                    preferences.putCheckPref("page17", true);
                 } else {
                     MainActivity.result.removeItem(17);
                     checkPage17.setChecked(false);
-                    preferences.putCheckPref("trollmollywood", false);
+                    preferences.putCheckPref("page17", false);
                 }
                 break;
             case R.id.checkPage18:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page18, 5);
                     checkPage18.setChecked(true);
-                    preferences.putCheckPref("trollclashers", true);
+                    preferences.putCheckPref("page18", true);
                 } else {
                     MainActivity.result.removeItem(18);
                     checkPage18.setChecked(false);
-                    preferences.putCheckPref("trollclashers", false);
+                    preferences.putCheckPref("page18", false);
                 }
                 break;
             case R.id.checkPage19:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page19, 5);
                     checkPage19.setChecked(true);
-                    preferences.putCheckPref("outspoken", true);
+                    preferences.putCheckPref("page19", true);
                 } else {
                     MainActivity.result.removeItem(19);
                     checkPage19.setChecked(false);
-                    preferences.putCheckPref("outspoken", false);
+                    preferences.putCheckPref("page19", false);
                 }
                 break;
             case R.id.checkPage20:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page20, 5);
                     checkPage20.setChecked(true);
-                    preferences.putCheckPref("btechtrolls", true);
+                    preferences.putCheckPref("page20", true);
                 } else {
                     MainActivity.result.removeItem(20);
                     checkPage20.setChecked(false);
-                    preferences.putCheckPref("btechtrolls", false);
+                    preferences.putCheckPref("page20", false);
                 }
                 break;
             case R.id.checkPage21:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page21, 5);
                     checkPage21.setChecked(true);
-                    preferences.putCheckPref("onlinetm", true);
+                    preferences.putCheckPref("page21", true);
                 } else {
                     MainActivity.result.removeItem(21);
                     checkPage21.setChecked(false);
-                    preferences.putCheckPref("onlinetm", false);
+                    preferences.putCheckPref("page21", false);
                 }
                 break;
             case R.id.checkPage22:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page22, 5);
                     checkPage22.setChecked(true);
-                    preferences.putCheckPref("trollkerala", true);
+                    preferences.putCheckPref("page22", true);
                 } else {
                     MainActivity.result.removeItem(22);
                     checkPage22.setChecked(false);
-                    preferences.putCheckPref("trollkerala", false);
+                    preferences.putCheckPref("page22", false);
                 }
                 break;
             case R.id.checkPage23:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page23, 5);
                     checkPage23.setChecked(true);
-                    preferences.putCheckPref("trollreligion", true);
+                    preferences.putCheckPref("page23", true);
                 } else {
                     MainActivity.result.removeItem(23);
                     checkPage23.setChecked(false);
-                    preferences.putCheckPref("trollreligion", false);
+                    preferences.putCheckPref("page23", false);
                 }
                 break;
             case R.id.checkPage24:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page24, 5);
                     checkPage24.setChecked(true);
-                    preferences.putCheckPref("trollktu", true);
+                    preferences.putCheckPref("page24", true);
                 } else {
                     MainActivity.result.removeItem(24);
                     checkPage24.setChecked(false);
-                    preferences.putCheckPref("trollktu", false);
+                    preferences.putCheckPref("page24", false);
                 }
                 break;
             case R.id.checkPage25:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page25, 5);
                     checkPage25.setChecked(true);
-                    preferences.putCheckPref("pravasitrolls", true);
+                    preferences.putCheckPref("page25", true);
                 } else {
                     MainActivity.result.removeItem(25);
                     checkPage25.setChecked(false);
-                    preferences.putCheckPref("pravasitrolls", false);
+                    preferences.putCheckPref("page25", false);
                 }
                 break;
             case R.id.checkPage26:
                 if (compoundButton.isChecked()) {
                     MainActivity.result.addItemAtPosition(MainActivity.item_page26, 5);
                     checkPage26.setChecked(true);
-                    preferences.putCheckPref("mpling", true);
+                    preferences.putCheckPref("page26", true);
                 } else {
                     MainActivity.result.removeItem(26);
                     checkPage26.setChecked(false);
-                    preferences.putCheckPref("mpling", false);
+                    preferences.putCheckPref("page26", false);
                 }
                 break;
         }

@@ -264,82 +264,82 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
 
     private void addDrawerItems() {
         Preferences preferences = new Preferences(this);
-        if (preferences.getCheckPref("icu")) {
+        if (preferences.getCheckPref("page1")) {
             result.addItem(item_page1);
         }
-        if (preferences.getCheckPref("trollm")) {
+        if (preferences.getCheckPref("page2")) {
             result.addItem(item_page2);
         }
-        if (preferences.getCheckPref("trollr")) {
+        if (preferences.getCheckPref("page3")) {
             result.addItem(item_page3);
         }
-        if (preferences.getCheckPref("mnt")) {
+        if (preferences.getCheckPref("page4")) {
             result.addItem(item_page4);
         }
-        if (preferences.getCheckPref("dank")) {
+        if (preferences.getCheckPref("page5")) {
             result.addItem(item_page5);
         }
-        if (preferences.getCheckPref("psctrolls")) {
+        if (preferences.getCheckPref("page6")) {
             result.addItem(item_page6);
         }
-        if (preferences.getCheckPref("kidilan")) {
+        if (preferences.getCheckPref("page7")) {
             result.addItem(item_page7);
         }
-        if (preferences.getCheckPref("sct")) {
+        if (preferences.getCheckPref("page8")) {
             result.addItem(item_page8);
         }
-        if (preferences.getCheckPref("trollcricket")) {
+        if (preferences.getCheckPref("page9")) {
             result.addItem(item_page9);
         }
-        if (preferences.getCheckPref("trollfootball")) {
+        if (preferences.getCheckPref("page10")) {
             result.addItem(item_page10);
         }
-        if (preferences.getCheckPref("trollmcinema")) {
+        if (preferences.getCheckPref("page11")) {
             result.addItem(item_page11);
         }
-        if (preferences.getCheckPref("mtm")) {
+        if (preferences.getCheckPref("page12")) {
             result.addItem(item_page12);
         }
-        if (preferences.getCheckPref("sheru")) {
+        if (preferences.getCheckPref("page13")) {
             result.addItem(item_page13);
         }
-        if (preferences.getCheckPref("cinemamixer")) {
+        if (preferences.getCheckPref("page14")) {
             result.addItem(item_page14);
         }
-        if (preferences.getCheckPref("cybertrollers")) {
+        if (preferences.getCheckPref("page15")) {
             result.addItem(item_page15);
         }
-        if (preferences.getCheckPref("thengakola")) {
+        if (preferences.getCheckPref("page16")) {
             result.addItem(item_page16);
         }
-        if (preferences.getCheckPref("trollmollywood")) {
+        if (preferences.getCheckPref("page17")) {
             result.addItem(item_page17);
         }
-        if (preferences.getCheckPref("trollclashers")) {
+        if (preferences.getCheckPref("page18")) {
             result.addItem(item_page18);
         }
-        if (preferences.getCheckPref("outspoken")) {
+        if (preferences.getCheckPref("page19")) {
             result.addItem(item_page19);
         }
-        if (preferences.getCheckPref("btechtrolls")) {
+        if (preferences.getCheckPref("page20")) {
             result.addItem(item_page20);
         }
-        if (preferences.getCheckPref("onlinetm")) {
+        if (preferences.getCheckPref("page21")) {
             result.addItem(item_page21);
         }
-        if (preferences.getCheckPref("trollkerala")) {
+        if (preferences.getCheckPref("page22")) {
             result.addItem(item_page22);
         }
-        if (preferences.getCheckPref("trollreligion")) {
+        if (preferences.getCheckPref("page23")) {
             result.addItem(item_page23);
         }
-        if (preferences.getCheckPref("trollktu")) {
+        if (preferences.getCheckPref("page24")) {
             result.addItem(item_page24);
         }
-        if (preferences.getCheckPref("pravasitrolls")) {
+        if (preferences.getCheckPref("page25")) {
             result.addItem(item_page25);
         }
-        if (preferences.getCheckPref("mpling")) {
+        if (preferences.getCheckPref("page26")) {
             result.addItem(item_page26);
         }
         result.addItems(item_divider, item_addRemove, item_settings, item_about, item_shareTheApp);
