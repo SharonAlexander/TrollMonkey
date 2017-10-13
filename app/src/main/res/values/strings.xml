@@ -42,32 +42,30 @@
     <string name="visitfb">View in FB</string>
 
     <!--PageNames-->
-    <string name="pagename_1">ICU-International Chalu Union</string>
-    <string name="pagename_2">Troll Malayalam</string>
-    <string name="pagename_3">Troll Republic</string>
-    <string name="pagename_5">Dank Memes Malayalam</string>
-    <string name="pagename_8">School College Trolls</string>
-    <string name="pagename_9">Troll Cricket Malayalam</string>
-    <string name="pagename_10">Troll Football Malayalam</string>
-    <string name="pagename_6">PSC Trolls</string>
-    <string name="pagename_20">B-Tech Trolls</string>
-    <string name="pagename_4">Malayalam Naughty Trolls</string>
-    <string name="pagename_19">OutSpoken</string>
-    <string name="pagename_24">Troll KTU</string>
-    <string name="pagename_7">Kidilan Trolls</string>
-    <string name="pagename_14">CinemaMixer</string>
-    <string name="pagename_18">Troll Clashers Kerala</string>
-    <string name="pagename_17">Troll MollyWood</string>
-    <string name="pagename_13">Sheru Entertainment Hub</string>
-    <string name="pagename_11">Troll Malayalam Cinema</string>
-    <string name="pagename_23">Troll Religion</string>
-    <string name="pagename_15">Cyber Trollers</string>
-    <string name="pagename_25">Pravasi Trolls</string>
-    <string name="pagename_12">Malayalam Troll Masters - MTM</string>
-    <string name="pagename_16">ThengaKola</string>
-    <string name="pagename_22">Troll Kerala</string>
-    <string name="pagename_26">Malayalam Pling</string>
-    <string name="pagename_21">Online Troll Media - OTM</string>
+    <string name="pagename_1">AIB-All India Bakchod</string>
+    <string name="pagename_2">The Back Benchers</string>
+    <string name="pagename_3">Rajnikant Vs CID</string>
+    <string name="pagename_4">Saale dost ko thanks bolta hai</string>
+    <string name="pagename_5">Let this semester go, I\'ll study from next year</string>
+    <string name="pagename_6">Funk You</string>
+    <string name="pagename_7">Shudh Desi Endings</string>
+    <string name="pagename_8">Scribbled Stories</string>
+    <string name="pagename_9">UnOfficial Arnab Goswami</string>
+    <string name="pagename_10">UnOfficial Dr. Subramanian Swamy</string>
+    <string name="pagename_11">Bahut bukh lagi hai yaar</string>
+    <string name="pagename_12">School life milegi na dobara</string>
+    <string name="pagename_13">Boys Vs Girls</string>
+    <string name="pagename_14">The Last Bench Student</string>
+    <string name="pagename_15">Bakchod Billi</string>
+    <string name="pagename_16">Only an Engineering Student can understand this</string>
+    <string name="pagename_17">Ye Kya Chuttiyappa hai</string>
+    <string name="pagename_18">Ye Kya bakchodi hai</string>
+    <string name="pagename_19">Funny India</string>
+    <string name="pagename_20">Bollywood Gandu</string>
+    <string name="pagename_21">Chall Yar Jo hoga dekha ho jayega</string>
+    <string name="pagename_22">Laughing colors</string>
+    <string name="pagename_23">The Desi Stuff</string>
+    <string name="pagename_24">Bollywood ClassRoom</string>
 
     <!--Settings-->
     <string name="aboutus">About Us</string>

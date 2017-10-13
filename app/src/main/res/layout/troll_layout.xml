@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-1740451756664908/5745721011" />
+        ads:adUnitId="ca-app-pub-1740451756664908/7730406431" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/troll_view"

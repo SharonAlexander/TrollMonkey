@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sharonalexander.trollmonkey">
+    package="com.sharonalexander.trollmonkeyhindi">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -15,13 +15,13 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
-            android:value="482856168756600" />
+            android:value="1968121726796573" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.sharonalexander.trollmonkeyhindi.MainActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
@@ -31,15 +31,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AddRemovePagesActivity"
+            android:name="com.sharonalexander.trollmonkeyhindi.AddRemovePagesActivity"
             android:label="AddRemovePages" />
         <activity
-            android:name=".FullScreenImage"
+            android:name="com.sharonalexander.trollmonkeyhindi.FullScreenImage"
             android:configChanges="orientation|screenSize"
             android:label="FullSreenImage"
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity
-            android:name=".PlayVideo"
+            android:name="com.sharonalexander.trollmonkeyhindi.PlayVideo"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="Video Viewer"
             android:theme="@style/Theme.Design.NoActionBar" />
