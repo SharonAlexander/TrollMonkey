@@ -26,7 +26,7 @@ public class Constants {
     public static String id_page3 = "/1872042256388716/posts";
     public static String id_page4 = "/1683740058504729/posts";
     public static String id_page5 = "/407353852981337/posts";
-    public static String id_page26 = "/1625896514360236/posts";
+    public static String id_page6 = "/1739755902960987/posts";
     public static String id_page7 = "/666693896735301/posts";
     public static String id_page8 = "/490695824320812/posts";
     public static String id_page9 = "/859365147433329/posts";
@@ -41,12 +41,12 @@ public class Constants {
     public static String id_page18 = "/1036234553090218/posts";
     public static String id_page19 = "/1649222615299897/posts";
     public static String id_page20 = "/1673839096214306/posts";
-    public static String id_page6 = "/1739755902960987/posts";
+    public static String id_page21 = "/922507547812613/posts";
     public static String id_page22 = "/1463657377256290/posts";
     public static String id_page23 = "/401814370028707/posts";
     public static String id_page24 = "/648035068665520/posts";
     public static String id_page25 = "/285557208528390/posts";
-    public static String id_page21 = "/922507547812613/posts";
+    public static String id_page26 = "/1625896514360236/posts";
 
     //    Feed
     public static String feed_limit = "25";
